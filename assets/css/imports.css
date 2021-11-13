@@ -9,31 +9,26 @@
 
 @font-face {
   font-family: FiraSans;
-  src: url(../fonts/FiraSans-Regular.tff) format("truetype");
+  src: url("/assets/fonts/FiraSans-Regular.ttf") format("truetype");
   font-weight: normal;
 }
 @font-face {
   font-family: FiraSans;
-  src: url(../fonts/FiraSans-Bold.tff) format("truetype");
+  src: url("/assets/fonts/FiraSans-Bold.ttf") format("truetype");
   font-weight: bold;
 }
 @font-face {
   font-family: FiraSans;
-  src: url(../fonts/FiraSans-Thin.tff) format("truetype");
-  font-weight: thin;
+  src: url("/assets/fonts/FiraSans-Thin.ttf") format("truetype");
+  font-weight: 400;
 }
 @font-face {
   font-family: Roxboro;
-  src: url(../fonts/RoxboroughCF-Bold.otf) format("opentype");
+  src: url("/assets/fonts/RoxboroughCF-Regular.otf") format("opentype");
   font-weight: normal;
 }
 @font-face {
   font-family: Roxboro;
-  src: url(../fonts/RoxboroughCF-Bold.otf) format("opentype");
+  src: url("/assets/fonts/RoxboroughCF-Bold.otf") format("opentype");
   font-weight: bold;
-}
-
-.t-logo {
-  font-family: FiraSans;
-  color: var(--color-black);
 }
