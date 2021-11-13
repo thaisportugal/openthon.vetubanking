@@ -1,5 +1,7 @@
 # openthon.vetubanking
 
+![logo1](https://user-images.githubusercontent.com/45333959/141660000-91591368-34df-4194-aa16-0fb2a315b631.png)
+
 
 ## Olá, nos somos a Vetu!
 
