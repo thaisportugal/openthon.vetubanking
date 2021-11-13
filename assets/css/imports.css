@@ -1,34 +1,39 @@
 :root {
-  color-white: #ffffff;
-  color-black: #282828;
-  color-l-gray: #e5e4f2;
-  color-purple: #4443ce;
-  color-orange: #ff6f00;
-  color-blue: #388ced;
+  --color-white: #ffffff;
+  --color-black: #282828;
+  --color-l-gray: #e5e4f2;
+  --color-purple: #4443ce;
+  --color-orange: #ff6f00;
+  --color-blue: #388ced;
 }
 
 @font-face {
-  font-family: "FiraSans";
+  font-family: FiraSans;
   src: url(../fonts/FiraSans-Regular.tff) format("truetype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "FiraSans";
+  font-family: FiraSans;
   src: url(../fonts/FiraSans-Bold.tff) format("truetype");
   font-weight: bold;
 }
 @font-face {
-  font-family: "FiraSans";
+  font-family: FiraSans;
   src: url(../fonts/FiraSans-Thin.tff) format("truetype");
   font-weight: thin;
 }
 @font-face {
-  font-family: "Roxboro";
+  font-family: Roxboro;
   src: url(../fonts/RoxboroughCF-Bold.otf) format("opentype");
   font-weight: normal;
 }
 @font-face {
-  font-family: "Roxboro";
+  font-family: Roxboro;
   src: url(../fonts/RoxboroughCF-Bold.otf) format("opentype");
   font-weight: bold;
+}
+
+.t-logo {
+  font-family: FiraSans;
+  color: var(--color-black);
 }
