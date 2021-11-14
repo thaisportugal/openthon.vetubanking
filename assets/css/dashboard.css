@@ -18,10 +18,10 @@
 
   margin: 1rem 0 1rem 1rem;
 
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .d-cards {
   width: 8rem;
-  height: 10rem;
+  max-height: 10rem;
 }

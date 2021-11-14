@@ -6,12 +6,16 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  overflow: hidden;
 }
 html,
 body,
 main {
   height: 100%;
   width: 100%;
+}
+body {
+  overflow-y: auto;
 }
 
 /* GLOBAL */
