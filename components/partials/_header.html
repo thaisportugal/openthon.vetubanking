@@ -1,57 +1,43 @@
-<link rel="stylesheet" href="/assets/css/header.css" />
-<script type="module" defer src="/assets/js/components/header.js"></script>
 <header id="header">
-  <section id="header-bar">
-    <a id="noExist" href="/">
-      <img
-        class="icon mb-hidden"
-        src="/assets/svg/icons/arrow.svg"
-        alt="voltar"
-      />
-    </a>
-    <img
-      class="icon cursor"
-      src="/assets/svg/icons/menu.svg"
-      alt="menu"
-      id="menu-button"
-    />
-  </section>
+  <link rel="stylesheet" href="/assets/css/header.css" />
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container-fluid">
+      <a href="/">
+        <img
+          src="img/logobranco.svg"
+          class="logo-header align-self-center"
+          alt=""
+          id="lkt-logotipo"
+        />
+      </a>
 
-  <section id="header-content" class="hidden">
-    <a href="/">
-      <img src="/assets/svg/logo/logo.svg" alt="logo" id="header-logo" />
-    </a>
-    <nav id="header-nav">
-      <ul>
-        <li>
-          <img
-            class="icon cursor"
-            src="/assets/svg/icons/menu.svg"
-            alt="menu"
-            id="menu-button-list"
-          />
-        </li>
-        <li>
-          <a href="/"
-            >Home <img src="/assets/svg/icons/home.svg" alt="home"
-          /></a>
-        </li>
-        <li>
-          <a href="/perfil"
-            >Sobre <img src="/assets/svg/icons/profile.svg" alt="perfil" />
-          </a>
-        </li>
-        <li>
-          <a href="/conquistas"
-            >Contato <img src="/assets/svg/icons/star.svg" alt="conquistas" />
-          </a>
-        </li>
-        <li>
-          <a href="/cursos"
-            >Cursos <img src="/assets/svg/icons/course.svg" alt="cursos" />
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </section>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarResponsive"
+        aria-controls="navbarResponsive"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="vetu.html">Conheça a Vetu +Parceirias </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cadastro.html">Cadastre-se</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="img/loa.png">Ajuda</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>

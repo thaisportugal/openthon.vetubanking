@@ -1,89 +1,11 @@
-.hidden-bg {
-  opacity: 0 !important;
+/* Header */
+#header {
+  width: 100%;
+  height: 15vh;
 }
 
-#header-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 1rem;
-}
-
-#header-content #header-logo {
-  display: none;
-}
-
-#header-content {
-  display: flex;
-  justify-content: flex-end;
-}
-
-#header-nav > ul > li {
-  display: flex;
-  justify-content: flex-end;
-}
-
-/* Celular */
-@media (max-width: 768px) {
-  #header-bar ~ #header-content {
-    background: var(--color-l-gray);
-  }
-  #header-content {
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-    top: 0;
-  }
-
-  #header-nav > ul > li {
-    background: var(--color-l-gray);
-    width: 100%;
-    padding: 1rem;
-  }
-  #header-nav,
-  #header-nav > ul {
-    width: 100%;
-    background: var(--color-l-gray);
-  }
-  /* Transition */
-  .hidden {
-    opacity: 0;
-    transition: all 0.1s ease-in-out;
-    transition-delay: 0.1ms;
-    display: none !important;
-  }
-}
-
-/* PC */
-@media screen and (min-width: 769px) {
-  #header-bar {
-    display: none;
-  }
-
-  #header-nav > ul img {
-    display: none;
-  }
-
-  #header-content #header-logo {
-    height: 2rem;
-    margin: 0.5rem;
-    display: block;
-  }
-
-  #header-content {
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #header-nav > ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  #header-nav > ul > li {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+/* Logotipo */
+#lkt-logotipo {
+  width: calc(1.5vw + 1.5vh);
+  height: calc(1.5vw + 1.5vh);
 }
