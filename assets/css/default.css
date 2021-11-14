@@ -7,6 +7,7 @@
   list-style: none;
   box-sizing: border-box;
   overflow: hidden;
+  color: var(--color-black);
 }
 html,
 body,
@@ -38,6 +39,16 @@ body {
 body {
   background: url("/assets/svg/background/bg.svg") repeat center
     var(--color-white);
+}
+
+.tab {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 1rem;
+
+  margin: 1rem 0 1rem 1rem;
+
+  overflow-x: auto;
 }
 
 /* Logo Container */

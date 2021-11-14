@@ -12,27 +12,15 @@
 /* Profile */
 #profile {
   display: flex;
-  align-items: center;
 }
 
 #profile-img {
-  width: 10rem;
-  height: 10rem;
+  height: 100%;
+  padding: 1rem;
   border-radius: 50%;
-  margin: 0 auto;
-  margin-bottom: 20px;
 }
 
 /* Courses Tab */
-#courses-tab {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-
-  margin: 1rem 0 1rem 1rem;
-
-  overflow-x: scroll;
-}
 
 .c-container {
   width: 12rem;
@@ -46,4 +34,12 @@
 
 .inline-money-tab {
   padding: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 769px) {
+  #profile {
+    display: flex;
+    justify-content: center;
+  }
 }

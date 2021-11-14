@@ -2,6 +2,7 @@ export async function setHTML(source) {
     if(document.getElementById(source)){
         let response = await fetch(`/components/partials/_${source}.html`);
         document.getElementById(source).outerHTML = await response.text();
+        import (`/assets/js/components/${source}.js`);
     }
 }
 
