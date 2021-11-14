@@ -1,5 +1,5 @@
-import {getHTML} from "./getComponent.js";
-import getChart from "./getChart.js"
+import {getHTML} from "../getComponent.js";
+import getChart from "../getChart.js"
 
 
 getChart("indexGrafico", [
