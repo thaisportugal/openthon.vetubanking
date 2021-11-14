@@ -2,7 +2,6 @@
 
 ![logo1](https://user-images.githubusercontent.com/45333959/141660000-91591368-34df-4194-aa16-0fb2a315b631.png)
 
-
 ## Olá, nos somos a Vetu!
 
 Uma empresa focada em te ajudar de forma simples e direta como organizar a sua vida financeira.
@@ -14,4 +13,3 @@ E é para isso que a Vetu chegou, com a proposta de te ajudar a conseguir um par
 Vamos sair daquele modo antigo e invasivo, a Vetu quer que você se sinta confotável durante todo o processo e por isso o nosso contato vai ser via WhatsApp.
 
 Vetu é simples e direto, como a vida financeira deveria ser.
-
