@@ -1,0 +1,367 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Lato';
+  background-color: #F7F7F7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgb(68, 67, 206);
+}
+
+.header-msg{
+
+  color: #ffffff
+}
+
+.header-msg2{
+
+  color: #3c3c3;
+  font-size: 24px;
+}
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-brand img {
+  height: 60px;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  color: #FFFFFF;
+}
+
+.nav3 {
+  font-size: 3rem;
+  text-align: left;
+  color: #4443CE;
+
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-image: url("../img/home2.jpg");
+
+  height: 100vh;
+}
+
+.banner-topo {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+   background-image: url("../img/imguser.png");
+  height: 30vh;
+  margin-top: 95px;
+
+}
+
+.banner-topo2 {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+   background-image: url("../img/group45.png");
+  height: 30vh;
+  margin-top: 95px;
+
+}
+
+.banner-topo4 {
+  position: relative;
+  overflow: hidden;
+  /* padding-top: calc(7rem + 72px); */
+  /* padding-bottom: 7rem; */
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+   background-image: url("../img/group58.png");
+  height: 47vh;
+  margin-top: 95px;
+  position: relative;
+
+}
+.banner-topo4 a{
+  position: absolute;
+  bottom: 55px;
+  left: 45px;
+}
+
+.fonte1 {
+ font-size: 36px;
+color: #fa7120;
+}
+
+.fonte3 {
+ font-size: 25px;
+
+}
+
+.fonte2 {
+ color: #3c3c3c;
+ margin: 45px;
+}
+
+.btn.b1 { 
+margin: 0px;
+ }
+
+.bt5 {
+  margin: 45px;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+header.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+@media (min-width: 992px) {
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #4443CE !important;
+}
+
+.btn-primary {
+  background-color: #4443CE;
+  border-color: #4443CE;
+}
+ 
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #6A69D6 !important;
+  border-color: #6A69D6 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #4443CE;
+  border-color: #4443CE;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 120, 47, 0.5);
+}
+
+.logo-header {
+  height: 30px;
+  margin-top: 0px;
+}
+
+.logo-dash {
+  height: 30px;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 568px) {
+  .logo-header {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.color-pitch {
+  color: #f95a03;
+}
+
+.btn-cta {
+  width: 300px;
+}
+
+#section-1 {
+  padding-top: 32px;
+}
+
+.btn {
+ margin:auto;
+
+}
+
+.btn-cta_vitrines {
+  background-color: #4443CE;
+  border-color: #4443CE;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 125px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
