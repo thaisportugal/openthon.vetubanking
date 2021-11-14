@@ -1,5 +1,5 @@
 .hidden-bg {
-  background: var(--color-l-gray);
+  opacity: 0 !important;
 }
 
 #header-bar {
@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 0.5rem 1rem;
+  padding: 1rem;
 }
 
 #header-content #header-logo {
@@ -30,14 +30,16 @@
     background: var(--color-l-gray);
   }
   #header-content {
-    position: fixed;
-
+    position: absolute;
+    z-index: 999;
     width: 100%;
+    top: 0;
   }
+
   #header-nav > ul > li {
     background: var(--color-l-gray);
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 1rem;
   }
   #header-nav,
   #header-nav > ul {
