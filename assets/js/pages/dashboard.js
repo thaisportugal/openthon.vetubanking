@@ -2,19 +2,18 @@ import getChart, {getChartLine} from "../getChart.js"
 
 
 getChart("dashBoardGraficoCircle", [
-    ['Gastos', 'Gastos por mês'],
-    ['Gasto1',  10],
-    ['Gasto2',  5],
-    ['Gasto3', 5],
+    ['Quanto falta para pagar a divida', 'R$'],
+    ['Valor total',  5650],
+    ['Valor pago',  900],
 ], true)
 
 getChartLine("dashBoardGraficoLine", [
-    ['Tempo de plataforma', 'Atividades'],
-    ["", 7],
-    ["", 4],
-    ["", 8],
+    ['Quantas parcelas você pagou por mês', 'Parcelas'],
+    ["", 1],
     ["", 2],
-    ["", 6],
-    ["", 9],
-    ["", 12],
-], "Tempo de plataforma")
+    ["", 2],
+    ["", 3],
+    ["", 1],
+    ["", 2],
+    ["", 1],
+], "Parcelas pagas por mês")

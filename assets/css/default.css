@@ -31,9 +31,10 @@ body {
 }
 
 .container {
-  background-color: var(--D-gray);
+  background-color: var(--color-l-gray);
   border-radius: 1rem;
   padding: 1rem;
+  margin: 0.5rem;
 }
 
 body {
@@ -42,11 +43,8 @@ body {
 }
 
 .tab {
-  display: grid;
-  grid-auto-flow: column;
-  grid-gap: 1rem;
-
-  margin: 1rem 0 1rem 1rem;
+  display: flex;
+  align-items: center;
 
   overflow-x: auto;
 }
