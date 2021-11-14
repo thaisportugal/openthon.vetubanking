@@ -1,0 +1,52 @@
+#noExist,
+#noExist * {
+  opacity: 0 !important;
+  cursor: auto !important;
+}
+
+#m-index {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Profile */
+#profile {
+  display: flex;
+}
+
+#profile-img {
+  height: 100%;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+/* Courses Tab */
+
+.c-container {
+  width: 12rem;
+}
+.c-container h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+/* Money Historic */
+#money-historic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inline-money-tab {
+  padding: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 769px) {
+  #profile {
+    display: flex;
+    justify-content: center;
+  }
+}

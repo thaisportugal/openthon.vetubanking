@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VETU</title>
+
+    <link rel="stylesheet" href="/assets/css/imports.css" />
+    <link rel="stylesheet" href="/assets/css/default.css" />
+    <script type="module" src="/assets/js/initialGenerator.js"></script>
+
+    <link
+      rel="shortcut icon"
+      href="/assets/svg/logo/logo.svg"
+      type="image/x-icon"
+    />
+
+    <!--
+      Fora do _head
+    -->
+    <link rel="stylesheet" href="/assets/css/index.css" />
+    <script defer type="module" src="/assets/js/pages/index.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+  </head>
+  <body>
+    <header id="header"></header>
+
+    <main id="m-index">
+      <section id="profile">
+        <img
+          id="profile-img"
+          src="/assets/data/person.jpg"
+          alt="avatar do usuario"
+        />
+      </section>
+      <section id="courses-tab" class="tab">
+        <div class="container c-container">
+          <h4>Curso</h4>
+          <p>Descrição</p>
+          <div>
+            <h1>50%</h1>
+          </div>
+        </div>
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+      </section>
+      <section id="money-historic">
+        <div class="inline-money-tab">
+          <h4>Compra 1</h4>
+          <p>Descrição da compra 1, com local e estado</p>
+        </div>
+        <div id="indexGrafico"></div>
+      </section>
+    </main>
+
+    <footer id="footer"></footer>
+  </body>
+</html>

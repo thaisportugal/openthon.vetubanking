@@ -1,0 +1,36 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #282828;
+  --color-l-gray: #e5e4f2;
+  --color-purple: #4443ce;
+  --color-orange: #ff6f00;
+  --color-blue: #388ced;
+
+  --D-gray: #c4c4c4;
+}
+
+@font-face {
+  font-family: FiraSans;
+  src: url("/assets/fonts/FiraSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: FiraSans;
+  src: url("/assets/fonts/FiraSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: FiraSans;
+  src: url("/assets/fonts/FiraSans-Thin.ttf") format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Roxboro;
+  src: url("/assets/fonts/RoxboroughCF-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Roxboro;
+  src: url("/assets/fonts/RoxboroughCF-Bold.otf") format("opentype");
+  font-weight: bold;
+}
