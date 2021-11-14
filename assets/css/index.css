@@ -1,0 +1,9 @@
+#noIndex,
+#noIndex * {
+  opacity: 0 !important;
+  cursor: auto !important;
+}
+
+#index {
+  display: grid;
+}
