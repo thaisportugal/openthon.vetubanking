@@ -4,6 +4,46 @@
   cursor: auto !important;
 }
 
-#index {
+#m-index {
   display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+/* Profile */
+#profile {
+  display: flex;
+  align-items: center;
+}
+
+#profile-img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Courses Tab */
+#courses-tab {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+
+  margin: 1rem 0 1rem 1rem;
+
+  overflow-x: scroll;
+}
+
+.c-container {
+  width: 12rem;
+}
+
+/* Money Historic */
+#money-historic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.inline-money-tab {
+  padding: 1rem;
 }

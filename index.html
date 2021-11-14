@@ -16,14 +16,35 @@
       href="/assets/svg/logo/logo.svg"
       type="image/x-icon"
     />
+
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
   </head>
   <body>
     <header id="header"></header>
 
-    <main id="main m-index">
-      <section id="profile"></section>
-      <section id="courses-tab"></section>
-      <section id="historic"></section>
+    <main id="m-index">
+      <section id="profile">
+        <img
+          id="profile-img"
+          src="/assets/testInformations/person.jpg"
+          alt="avatar do usuario"
+        />
+      </section>
+      <section id="courses-tab">
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+        <div class="container c-container"></div>
+      </section>
+      <section id="money-historic">
+        <div class="inline-money-tab">
+          <h4>Compra 1</h4>
+          <p>Descrição da compra 1, com local e estado</p>
+        </div>
+        <div id="indexGrafico"></div>
+      </section>
     </main>
 
     <footer id="footer"></footer>
