@@ -6,8 +6,3 @@
   justify-items: center;
   align-items: center;
 }
-
-/* Logo Container */
-#logo-container > img {
-  width: 10rem;
-}

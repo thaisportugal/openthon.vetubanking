@@ -36,6 +36,14 @@ body {
     var(--color-white);
 }
 
+/* Logo Container */
+#logo-container > img {
+  width: 8rem;
+}
+#logo-container > h1 {
+  text-align: center;
+}
+
 /* MEDIAS */
 @media (min-width: 769px) {
   .mb-hidden {
