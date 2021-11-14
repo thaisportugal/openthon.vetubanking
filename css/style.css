@@ -329,3 +329,19 @@ input[type=text]:placeholder {
 }
 
 
+.container-ctas {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+.container-ctas a {
+
+  display: block;
+
+
+}
+
